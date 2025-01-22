@@ -1,0 +1,104 @@
+*{
+margin: 0;
+padding: 0;
+padding-left: 20px;
+padding-right: 20px;
+}
+/* shared styles */
+.btn-primary{
+    width: 150px;
+height: 40px;
+border-radius: 12px;
+font-size: 15px;
+color: white;
+background: rgb(254, 163, 1);
+border: none;
+}
+.btn-secondary{
+    width: 150px;
+    height: 40px;
+    border-radius: 12px;
+    font-size: 15px;
+    color: white;
+    background: rgb(0, 0, 0);
+    border: none;
+}
+/* nav styles here */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons{
+    display: flex;
+    align-items: center;
+}
+.school-title{
+    font-size: 30px;
+    font-weight: 800;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+/* Nav-ites Style here */
+.nav-2{
+    display: none;
+}
+.nav-items a{
+    padding: 10px;
+}
+.home{
+    color:Orange;
+    font-family: "Quicksand", serif;
+}
+.about{
+    color:Blue;
+    font-family: "Quicksand", serif;
+}
+.Facilities{
+    color: rgb(5, 212, 223);
+    font-family: "Quicksand", serif;
+}
+.Admission{
+    color: rgb(93, 88, 239);
+    font-family: "Quicksand", serif;
+}
+/* responsive nav */
+@media screen and (max-width:576px) {
+    .nav{
+        display: none;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .nav-2{
+        display: block;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        border: 1px solid orange;
+    }
+}
+/* hero-section here */
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-title{
+    font-family: Quicksand;
+font-size: 3.5rem;
+font-weight: 700;
+line-height: 61px;
+letter-spacing: 0%;
+text-align: left;
+width: 530px;
+height: 183px;
+}
+.img-conatiner{
+    width: 468.61px;
+height: 575px;
+}
