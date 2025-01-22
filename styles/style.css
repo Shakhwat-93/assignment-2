@@ -2,7 +2,6 @@
     font-family: "Quicksand", serif;
 margin: 0 ;
 padding: 0;
-
 }
 .container{
     margin: 0 auto;
@@ -258,9 +257,39 @@ margin-left: 38px;
     padding: 10px 35px;
     font-size: 15px;
 }
-
-
-
+.footer{
+    padding: 50px 50px;
+    display: flex;
+    justify-content: space-between ;
+}
+.footer li{
+    list-style-type: none;
+    padding: 5px;
+}
+.footerr{
+    background: rgb(1, 172, 253);
+    color: white;
+}
+.footer-main{
+    display: flex;
+    align-items: center;
+}
+.last-footer h2{
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.last-footer{
+    margin-right: 125px;
+}
+.footer-description{
+    margin: 10px;
+}
+#btn-1{
+    background: rgb(93, 88, 240);
+}
+#btn-2{
+    background: orange;
+}
 
 
 
@@ -281,16 +310,20 @@ margin-left: 38px;
     }
     .hero-title{
         text-align: center;
-        font-size: 32px;
+        font-size: 25px;
+        margin-right: 10px;
     }
     .hero-text{
         /* width: 357px;
         height: 252px; */
-        font-size: 30px;
+        font-size: 20px;
         text-align: center;
     }
     .nav{
         display: none;
+    }
+    .hero-text {
+        width: 500px;
     }
     *{
         margin: 0;
@@ -317,7 +350,23 @@ margin-left: 38px;
     }
     .article-2{
         width: 100%;
-        padding: 0 30px;
-        grid-template-columns: repeat(1, 1fr);
+        padding: 0;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footer{
+        flex-direction: column;
+        gap: 20px;
+        margin-left: 10px;
+    }
+    .footer-description{
+        margin-bottom: 20px;
+    }
+    .last-footer{
+        margin-top: 25px;
+        margin-bottom: 50px;
+        margin-left: 10px;
+    }
+    .footer-second{
+        margin-left: 10px;
     }
 }
