@@ -1,10 +1,19 @@
 *{
+    font-family: "Quicksand", serif;
 margin: 0;
 padding: 0;
 padding-left: 20px;
 padding-right: 20px;
 }
 /* shared styles */
+.span-color{
+    color: orange;
+    margin-left: -18px;
+}
+.color-pink{
+    color: purple;
+    margin-left: -18px;
+}
 .btn-primary{
     width: 150px;
 height: 40px;
@@ -22,6 +31,9 @@ border: none;
     color: white;
     background: rgb(0, 0, 0);
     border: none;
+}
+.opacity{
+    opacity: 0.9;
 }
 /* nav styles here */
 .nav{
@@ -88,6 +100,10 @@ a{
     justify-content: space-between;
     align-items: center;
 }
+.hero-text{
+    margin-left: 30px;
+    width: 550px;
+}
 .hero-title{
     font-family: Quicksand;
 font-size: 3.5rem;
@@ -95,10 +111,51 @@ font-weight: 700;
 line-height: 61px;
 letter-spacing: 0%;
 text-align: left;
-width: 530px;
-height: 183px;
 }
 .img-conatiner{
     width: 468.61px;
 height: 575px;
+}
+.hero-subtitle{
+    margin-top: 20px;
+    font-size: 20px;
+font-weight: 400;
+}
+.enroll-btn{
+    margin-left: 20px;
+    margin:20px ;
+}
+/* hero section responsive here */
+@media screen and (max-width:576px) {
+    .hero-section{
+        flex-direction: column-reverse;
+    }
+    .hero-title{
+        text-align: center;
+    }
+    .hero-text{
+        width: 357px;
+height: 252px;
+        font-size: 30px;
+        text-align: center;
+    }
+}
+/* Cards section here */
+.cards-container{
+    width: 100%;
+height: 779px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.card{
+    text-align: center;
+    width: 367.8px;
+height: 476.78px;
+}
+.card-title{
+    font-size: 1.5rem;
+}
+.card a{
+    font-size: 10px;
 }
